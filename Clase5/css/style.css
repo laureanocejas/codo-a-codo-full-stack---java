@@ -1,0 +1,16 @@
+/*
+comentario multilinea
+*/
+
+/* Estilo de los h1 */
+
+body {
+    background-color: lightskyblue;
+    background:url(/Clase5/img/images.jpg) ;
+    background-size: cover;
+}
+h1 {
+    color: white !important;
+    text-align: center;
+}
+/* Estilos de los body */
