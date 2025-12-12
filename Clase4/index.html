@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="apuntes.html">Apuntes</a>
+    <form action="ingresar" method="post">
+        <fieldset>
+            <legend>Datos del Alumno</legend>
+            <label for="alumnoNombre">Nombre:</label>
+            <input type="text" id="alumnoNombre" name="alumnoNombre" maxlength="5" minlength="2" required>
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required placeholder="Aqui su apellido">
+            <br>
+            <br>
+            <label for="fnac">Fecha de Nac:</label>
+            <input type="datetime-local" id="" name="">
+             <br>
+             <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="99" required>
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" min="18" max="99" readonly value="17">
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" min="18" max="99" value="17" disabled>
+            <br>
+            <br>
+            <label for="pass">Pasword</label>
+            <input type="password" pattern="">
+            <br>
+            <br>
+            <label for="color">Color:</label>
+            <input type="color">
+            <br>
+            <br>
+            <label for="color">Archivo:</label>
+            <input type="file">
+            <br>
+            <br>
+            <label for="oculto">Oculto:</label>
+            <input type="hidden">
+            <br>
+            <br>
+            <label for="direccion">Direccion:</label>
+            <textarea placeholder="aqui su direccion completa"></textarea>
+            <br>
+            <br>
+            <label for="">Seleccion lenguaje:</label>
+            <select name="" id="">
+                <option value="1">JAVA</option>
+                <option value="2">PHP</option>
+                <option value="3" selected>C#</option>     
+            </select>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+
+        <br>
+        
+    </form>
+</body>
+</html>
