@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    height: 140px;
+    /* background-color: #A62912; */
+    background-color: rgb(252, 35, 10);
+    background-color: hsla(hue, saturation, lightness, alpha);
+    /* background-color: lightgray; */
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 5px 5px gray; 
+
+}
+h1 {
+text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+}
+main section p {
+      font-family: "Dawning of a New Day", cursive;
+      font-size: 24px;
+
+}
+main {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+.textoMonserrat {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
