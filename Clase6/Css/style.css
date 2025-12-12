@@ -1,0 +1,58 @@
+/* body {
+    background-color: lightgrey;
+}
+p {
+    color: red !important;
+}
+
+.letraAzules {
+    color: blue;
+}
+
+#letraVerdes {
+    color: green;
+}   
+
+p,.letraAzules,#letraVerde {
+    background-color: white;
+} */
+div {
+    width: 70%;
+    margin: auto;
+
+}
+#div3,#div1 {
+
+    background-color: grey;
+    height: 40px;
+}
+#div2 {
+    background-color: violet;
+    height: 100px;
+}
+
+span {
+    background-color: red;
+}
+/* selector descendente */
+div p .textoSpanAzul {
+    background-color: red;
+    color: blue;
+}
+/* .textoSpanAzul {
+color: blue;
+} */
+
+/* input[type=text] {
+    color: red;
+} */
+ input[name=pass] {
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
