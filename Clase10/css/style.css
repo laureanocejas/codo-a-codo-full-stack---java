@@ -1,0 +1,27 @@
+div {
+    border: red 5px solid;
+}
+/* selectores avanzados descendientes no se utiliza mucho */
+/* div+p {
+    color: red;
+} */
+
+
+/* div~p {
+    color: red;
+} */
+
+/* div>p {
+    color: red;
+} */
+ .rojo {
+    color: red;
+ }
+ .fuente {
+    font-size: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+ }
+ .textoSombra {
+    text-shadow: 2px 2px grey;
+ }
