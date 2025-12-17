@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var miDato = "2500";
+        var miDato2 = 2;
+
+        console.log("El valor de la variable es: " + miDato);
+        console.log("El Tipo de la variable es: "+typeof(miDato));
+
+        var nombre="Nicolas";
+        var edad=42;
+        var habilitado=true;
+
+        // Operadores aritmeticos
+
+        // + tiene dos funciones para concatenar y otra para sumar
+        // -
+        // *
+        // /
+        // %
+        
+       console.log("El resultado es:"+(miDato+miDato2));
+        /*Operadores Logicos*/
+            /*
+            < menor
+            > mayor
+            <= menor o igual
+            >= mayor o igual
+            != distinto de
+            = operador de asignacion
+            == doble igualacion
+            === triple igualacion
+            */ 
+        var miDato = "2500";
+
+        var miDato2 = 2;
+
+
+        console.log("El resultado es:" + (parseInt(miDato) + miDato2));
+       
+       //Metodos
+
+        numero1=parseInt("75.7");
+        console.log("Dato: "+numero1);
+        numero1=parseInt("66 21 33");
+        console.log("Dato: "+numero1);
+        // numero1=parseInt("42 años de edad");
+        numero1=parseInt("años de edad 42");
+        console.log("Dato: "+numero1);
+
+        numero1=parseFloat("42.9 porciento");
+        console.log("Dato: "+numero1);
+
+        numero1=numero1+40.1;
+        console.log("Dato: "+numero1);
+
+        var notas=[10,2,6,10,8,9,4];
+        //indice    0,1,2,3,4,5,6
+
+        console.log(notas[0]);
+        console.log(notas[1]);
+        console.log(notas[5]);
+        console.log(notas[17]);
+
+        console.log(notas);
+        console.table(notas);
+
+        var nombres=["nicolas","laureano","Lucho"];
+        console.table(nombres);
+
+        //Esto solo me lo permite hacer javascript mezclar tipos de datos
+        var deTodo=[2,"lalo",5.6,true];
+        console.table(deTodo);
+
+        var suma=notas[0]+notas[2];
+        console.log(suma);
+
+        var cantidad=notas.length;
+        console.log("La cantidad de elementos de notas es: "+cantidad);
+
+        //otro tema
+        var nota=7;
+        
+        if (nota > 4) {//true o false me devuelve
+            //salida por true
+            console.log("Aprobado");
+            }
+        else {
+            //salida por false
+            console.log("Desaprobado");
+        }
+
+        var nota2="4";
+
+        if (nota2 === 4) {//true o false me devuelve 
+            //salida por true
+            console.log("SI");
+            }
+        else {
+            //salida por false
+            console.log("NO");
+        }
+
+        // <
+        // >
+        // >=
+        // <=
+        // ==
+        // ===
+        // !=
+        //!==
+
+        // Tabla de verdad
+        // && Y
+        // || O 
+        
+        
+    // AND --> Y
+    // T + T =T
+    // F + T = F
+    // T + F = F
+    // F + F = F
+
+    // OR-- > O
+    // T + T = T
+    // F + T = T
+    // T + F = T
+    // F + F = F
+
+
+        nota=4;
+        conducta=1;
+
+        if(nota>=4 && conducta>=4) {
+            console.log("Aprobado");
+        }
+        else {
+            console.log("Desaprobado");
+        }
+
+
+
+
+        if(nota>=4 || conducta>=4) {
+            console.log("Aprobado");
+        }
+        else {
+            console.log("Desaprobado");
+        }
+        
+    
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
