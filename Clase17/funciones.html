@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        imprimir();
+        imprimir();
+        imprimir();
+        console.log("-----------------------");
+        var mensaje = "hola lalo";
+        imp(mensaje);
+        mensaje = "123232";
+        imp(mensaje);
+
+
+
+
+
+
+
+
+        function imprimir() {
+            console.log("Hola mundo");
+            console.log("-----------")
+        }
+
+
+        function imp(men) {
+            console.log(men)
+        }
+        saludar();
+
+
+        //definicion de la funcion
+        function saludar() {
+            var x = 0;
+            do {
+                console.log("Hola mundo..... ");
+                x++;
+            } while (x < 5);
+            //alert("Hola Mundo....");
+        }
+
+
+        console.log("-------------")
+        saludarConNombre("Nicolas");
+        saludarConNombre("Julieta");
+
+
+        function saludarConNombre(nombre) {
+            console.log("Hola Mundo, mi nombres es: " + nombre);
+            //alert("Hola Mundo, mi nombres es: "+nombre);
+        }
+        console.log("---------------------")
+
+        nota = sumar(4, 4);
+
+        if (nota > 7) {
+            console.log("Aprobo");
+        }
+        else {
+            console.log("No esta Aprobado");
+        }
+
+        function sumar(valor1, valor2) {
+            var resultado = valor1 + valor2;
+            console.log("El resultado es:" + (valor1 + valor2));
+
+            return resultado;
+        }
+
+
+        div(4,2);
+        div(4);
+        function div(a, b = 1) {
+            var resultado = a / b;
+            console.log(resultado);
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
